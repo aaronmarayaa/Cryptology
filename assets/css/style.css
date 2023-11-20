@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #302e2b;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.numInput {
+  margin: 2rem;
+}
+
+input {
+  background-color: #302e2b;
+  border: none;
+  border-bottom: 2px solid #48849d;
+  text-align: center;
+}
+
+.formula {
+  margin: 2rem;
+}
+
+.formula input {
+  width: 20px;
+  margin: 1rem;
+}
+
+button {
+  font-weight: bold;
+  margin: 2%;
+  background-color: #81b64c;
+  padding: 1rem;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Raleway' ,sans-serif;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 5px solid #5d9948;
+  text-align: center;
+  margin: 1rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.row-container {
+  display: flex;
+  align-items: center; 
+}
+
+.input-box {
+  color: grey;
+  border-bottom: 2px solid grey;
+  width: 3rem;
+  margin: .7rem;
+}
+
+
+.input-result {
+  border-bottom: 2px solid rgb(139, 45, 45);
+  width: 3rem;
+  margin: .7rem;
+}
+
+.operator {
+  margin: 0 1%; 
+}
+
+#dynamicInputs {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
